@@ -1,14 +1,15 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
+require("dotenv").config();
 
 const db = require("./db/models/index");
 
 const { auth } = require("express-oauth2-jwt-bearer");
 
 const checkJwt = auth({
-  audience: "https://fruit/api",
-  issuerBaseURL: `https://dev-0qzz65qu6ebsz52w.au.auth0.com/`,
+  audience: process.env.AUDIENCE,
+  issuerBaseURL: process.env.ISSUERBASEURL,
 });
 
 const { fruit } = db;
