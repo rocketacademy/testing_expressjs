@@ -22,6 +22,8 @@ module.exports = {
         price: 15,
         image_url:
           "https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+        created_at: new Date("05-11-2023"),
+        updated_at: new Date("05-11-2023"),
       },
       {
         name: "Kiwi",
@@ -31,6 +33,8 @@ module.exports = {
         price: 20,
         image_url:
           "https://images.unsplash.com/photo-1585059895524-72359e06133a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+        created_at: new Date("05-11-2023"),
+        updated_at: new Date("05-11-2023"),
       },
       {
         name: "Banana",
@@ -40,6 +44,8 @@ module.exports = {
         price: 10,
         image_url:
           "https://images.unsplash.com/photo-1528825871115-3581a5387919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=830&q=80",
+        created_at: new Date("05-11-2023"),
+        updated_at: new Date("05-11-2023"),
       },
     ]);
 
